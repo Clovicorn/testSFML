@@ -1,4 +1,4 @@
-# Install script for directory: /2tb/cpp_projs/testSFML
+# Install script for directory: /media/clover/sdCard/cpp_projs/testSFML
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/2tb/cpp_projs/testSFML/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/media/clover/sdCard/cpp_projs/testSFML/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

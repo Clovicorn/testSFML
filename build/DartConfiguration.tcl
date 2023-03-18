@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: /2tb/cpp_projs/testSFML
-BuildDirectory: /2tb/cpp_projs/testSFML/build
+SourceDirectory: /media/clover/sdCard/cpp_projs/testSFML
+BuildDirectory: /media/clover/sdCard/cpp_projs/testSFML/build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: pop-os
+Site: Peace
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Linux-g++
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/2tb/cpp_projs/testSFML"
+ConfigureCommand: "/usr/bin/cmake" "/media/clover/sdCard/cpp_projs/testSFML"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 

@@ -1,0 +1,107 @@
+[
+{
+  "directory": "/2tb/cpp_projs/testSFML/build",
+  "command": "/usr/bin/g++ -I/2tb/cpp_projs/testSFML/build -I/2tb/cpp_projs/testSFML -g -std=gnu++11 -o CMakeFiles/testProg.dir/main.cpp.o -c /2tb/cpp_projs/testSFML/main.cpp",
+  "file": "/2tb/cpp_projs/testSFML/main.cpp"
+},
+{
+  "directory": "/2tb/cpp_projs/testSFML/build",
+  "command": "/usr/bin/g++ -I/2tb/cpp_projs/testSFML/build -I/2tb/cpp_projs/testSFML -g -std=gnu++11 -o CMakeFiles/testProg.dir/textureHolder.cpp.o -c /2tb/cpp_projs/testSFML/textureHolder.cpp",
+  "file": "/2tb/cpp_projs/testSFML/textureHolder.cpp"
+},
+{
+  "directory": "/2tb/cpp_projs/testSFML/build",
+  "command": "/usr/bin/g++ -I/2tb/cpp_projs/testSFML/build -I/2tb/cpp_projs/testSFML -g -std=gnu++11 -o CMakeFiles/testProg.dir/engine/engine.cpp.o -c /2tb/cpp_projs/testSFML/engine/engine.cpp",
+  "file": "/2tb/cpp_projs/testSFML/engine/engine.cpp"
+},
+{
+  "directory": "/2tb/cpp_projs/testSFML/build",
+  "command": "/usr/bin/g++ -I/2tb/cpp_projs/testSFML/build -I/2tb/cpp_projs/testSFML -g -std=gnu++11 -o CMakeFiles/testProg.dir/engine/draw.cpp.o -c /2tb/cpp_projs/testSFML/engine/draw.cpp",
+  "file": "/2tb/cpp_projs/testSFML/engine/draw.cpp"
+},
+{
+  "directory": "/2tb/cpp_projs/testSFML/build",
+  "command": "/usr/bin/g++ -I/2tb/cpp_projs/testSFML/build -I/2tb/cpp_projs/testSFML -g -std=gnu++11 -o CMakeFiles/testProg.dir/engine/input.cpp.o -c /2tb/cpp_projs/testSFML/engine/input.cpp",
+  "file": "/2tb/cpp_projs/testSFML/engine/input.cpp"
+},
+{
+  "directory": "/2tb/cpp_projs/testSFML/build",
+  "command": "/usr/bin/g++ -I/2tb/cpp_projs/testSFML/build -I/2tb/cpp_projs/testSFML -g -std=gnu++11 -o CMakeFiles/testProg.dir/engine/update.cpp.o -c /2tb/cpp_projs/testSFML/engine/update.cpp",
+  "file": "/2tb/cpp_projs/testSFML/engine/update.cpp"
+},
+{
+  "directory": "/2tb/cpp_projs/testSFML/build",
+  "command": "/usr/bin/g++ -I/2tb/cpp_projs/testSFML/build -I/2tb/cpp_projs/testSFML -g -std=gnu++11 -o CMakeFiles/testProg.dir/engine/gameOver/gameOverDraw.cpp.o -c /2tb/cpp_projs/testSFML/engine/gameOver/gameOverDraw.cpp",
+  "file": "/2tb/cpp_projs/testSFML/engine/gameOver/gameOverDraw.cpp"
+},
+{
+  "directory": "/2tb/cpp_projs/testSFML/build",
+  "command": "/usr/bin/g++ -I/2tb/cpp_projs/testSFML/build -I/2tb/cpp_projs/testSFML -g -std=gnu++11 -o CMakeFiles/testProg.dir/engine/gameOver/gameOverInput.cpp.o -c /2tb/cpp_projs/testSFML/engine/gameOver/gameOverInput.cpp",
+  "file": "/2tb/cpp_projs/testSFML/engine/gameOver/gameOverInput.cpp"
+},
+{
+  "directory": "/2tb/cpp_projs/testSFML/build",
+  "command": "/usr/bin/g++ -I/2tb/cpp_projs/testSFML/build -I/2tb/cpp_projs/testSFML -g -std=gnu++11 -o CMakeFiles/testProg.dir/engine/gameOver/gameOverUpdate.cpp.o -c /2tb/cpp_projs/testSFML/engine/gameOver/gameOverUpdate.cpp",
+  "file": "/2tb/cpp_projs/testSFML/engine/gameOver/gameOverUpdate.cpp"
+},
+{
+  "directory": "/2tb/cpp_projs/testSFML/build",
+  "command": "/usr/bin/g++ -I/2tb/cpp_projs/testSFML/build -I/2tb/cpp_projs/testSFML -g -std=gnu++11 -o CMakeFiles/testProg.dir/engine/inventory/inventoryDraw.cpp.o -c /2tb/cpp_projs/testSFML/engine/inventory/inventoryDraw.cpp",
+  "file": "/2tb/cpp_projs/testSFML/engine/inventory/inventoryDraw.cpp"
+},
+{
+  "directory": "/2tb/cpp_projs/testSFML/build",
+  "command": "/usr/bin/g++ -I/2tb/cpp_projs/testSFML/build -I/2tb/cpp_projs/testSFML -g -std=gnu++11 -o CMakeFiles/testProg.dir/engine/inventory/inventoryInput.cpp.o -c /2tb/cpp_projs/testSFML/engine/inventory/inventoryInput.cpp",
+  "file": "/2tb/cpp_projs/testSFML/engine/inventory/inventoryInput.cpp"
+},
+{
+  "directory": "/2tb/cpp_projs/testSFML/build",
+  "command": "/usr/bin/g++ -I/2tb/cpp_projs/testSFML/build -I/2tb/cpp_projs/testSFML -g -std=gnu++11 -o CMakeFiles/testProg.dir/engine/inventory/inventoryUpdate.cpp.o -c /2tb/cpp_projs/testSFML/engine/inventory/inventoryUpdate.cpp",
+  "file": "/2tb/cpp_projs/testSFML/engine/inventory/inventoryUpdate.cpp"
+},
+{
+  "directory": "/2tb/cpp_projs/testSFML/build",
+  "command": "/usr/bin/g++ -I/2tb/cpp_projs/testSFML/build -I/2tb/cpp_projs/testSFML -g -std=gnu++11 -o CMakeFiles/testProg.dir/engine/overWorld/overWorldDraw.cpp.o -c /2tb/cpp_projs/testSFML/engine/overWorld/overWorldDraw.cpp",
+  "file": "/2tb/cpp_projs/testSFML/engine/overWorld/overWorldDraw.cpp"
+},
+{
+  "directory": "/2tb/cpp_projs/testSFML/build",
+  "command": "/usr/bin/g++ -I/2tb/cpp_projs/testSFML/build -I/2tb/cpp_projs/testSFML -g -std=gnu++11 -o CMakeFiles/testProg.dir/engine/overWorld/overWorldInput.cpp.o -c /2tb/cpp_projs/testSFML/engine/overWorld/overWorldInput.cpp",
+  "file": "/2tb/cpp_projs/testSFML/engine/overWorld/overWorldInput.cpp"
+},
+{
+  "directory": "/2tb/cpp_projs/testSFML/build",
+  "command": "/usr/bin/g++ -I/2tb/cpp_projs/testSFML/build -I/2tb/cpp_projs/testSFML -g -std=gnu++11 -o CMakeFiles/testProg.dir/engine/overWorld/overWorldUpdate.cpp.o -c /2tb/cpp_projs/testSFML/engine/overWorld/overWorldUpdate.cpp",
+  "file": "/2tb/cpp_projs/testSFML/engine/overWorld/overWorldUpdate.cpp"
+},
+{
+  "directory": "/2tb/cpp_projs/testSFML/build",
+  "command": "/usr/bin/g++ -I/2tb/cpp_projs/testSFML/build -I/2tb/cpp_projs/testSFML -g -std=gnu++11 -o CMakeFiles/testProg.dir/engine/paused/pausedDraw.cpp.o -c /2tb/cpp_projs/testSFML/engine/paused/pausedDraw.cpp",
+  "file": "/2tb/cpp_projs/testSFML/engine/paused/pausedDraw.cpp"
+},
+{
+  "directory": "/2tb/cpp_projs/testSFML/build",
+  "command": "/usr/bin/g++ -I/2tb/cpp_projs/testSFML/build -I/2tb/cpp_projs/testSFML -g -std=gnu++11 -o CMakeFiles/testProg.dir/engine/paused/pausedInput.cpp.o -c /2tb/cpp_projs/testSFML/engine/paused/pausedInput.cpp",
+  "file": "/2tb/cpp_projs/testSFML/engine/paused/pausedInput.cpp"
+},
+{
+  "directory": "/2tb/cpp_projs/testSFML/build",
+  "command": "/usr/bin/g++ -I/2tb/cpp_projs/testSFML/build -I/2tb/cpp_projs/testSFML -g -std=gnu++11 -o CMakeFiles/testProg.dir/engine/paused/pausedUpdate.cpp.o -c /2tb/cpp_projs/testSFML/engine/paused/pausedUpdate.cpp",
+  "file": "/2tb/cpp_projs/testSFML/engine/paused/pausedUpdate.cpp"
+},
+{
+  "directory": "/2tb/cpp_projs/testSFML/build",
+  "command": "/usr/bin/g++ -I/2tb/cpp_projs/testSFML/build -I/2tb/cpp_projs/testSFML -g -std=gnu++11 -o CMakeFiles/testProg.dir/engine/title/titleDraw.cpp.o -c /2tb/cpp_projs/testSFML/engine/title/titleDraw.cpp",
+  "file": "/2tb/cpp_projs/testSFML/engine/title/titleDraw.cpp"
+},
+{
+  "directory": "/2tb/cpp_projs/testSFML/build",
+  "command": "/usr/bin/g++ -I/2tb/cpp_projs/testSFML/build -I/2tb/cpp_projs/testSFML -g -std=gnu++11 -o CMakeFiles/testProg.dir/engine/title/titleInput.cpp.o -c /2tb/cpp_projs/testSFML/engine/title/titleInput.cpp",
+  "file": "/2tb/cpp_projs/testSFML/engine/title/titleInput.cpp"
+},
+{
+  "directory": "/2tb/cpp_projs/testSFML/build",
+  "command": "/usr/bin/g++ -I/2tb/cpp_projs/testSFML/build -I/2tb/cpp_projs/testSFML -g -std=gnu++11 -o CMakeFiles/testProg.dir/engine/title/titleUpdate.cpp.o -c /2tb/cpp_projs/testSFML/engine/title/titleUpdate.cpp",
+  "file": "/2tb/cpp_projs/testSFML/engine/title/titleUpdate.cpp"
+}
+]

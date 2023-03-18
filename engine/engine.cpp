@@ -9,18 +9,30 @@ Engine::Engine(void)
     resolution.x = VideoMode::getDesktopMode().width;
     resolution.y = VideoMode::getDesktopMode().height;
 
-    mWindow.create(VideoMode::getDesktopMode(), "Platformer", Style::Fullscreen);
+    if (resolution.x > 1920)
+    {
+        resolution.x = 1920;
+        resolution.y = 1080;
+    }
+
+    std::cout << "resolution width " << resolution.x << "\n";
+    std::cout << "resolution height " << resolution.y << "\n";
+    mWindow.create(VideoMode(resolution.x, resolution.y), "Platformer", Style::Fullscreen);
 
     mTitleView.setViewport(FloatRect(0, 0, resolution.x, resolution.y));
 
-    mMainView.setViewport(FloatRect(0.0f, 0.001f, 0.698f, 1.00f));
+    mMainView.setViewport(FloatRect(0.0f, 0.00f, 0.698f, 1.00f));
 
-    mScrollView.setViewport(FloatRect(0.7f, 0.0f, 0.998f, 1.3f));
-    // mScrollView.reset(FloatRect(resolution.x * 0.7f, 0.0f, resolution.x * 0.3f, resolution.y));
+    // mScrollView.setSize(Vector2f(resolution.x * 0.3f, resolution.y));
+    mScrollView.setViewport(FloatRect(0.7f, 0.0f, 1.0f, 1.00f));
 
-    mScrollShape.setPosition(Vector2f(0, 0));
-    // mScrollShape.
-    mScrollShape.setSize(Vector2f(resolution.x * 0.22, resolution.y));
+    mScrollShape.setPosition(Vector2f(1, 0));
+
+    mScrollShape.setSize(Vector2f(mScrollView.getSize().x, resolution.y));
+    mScrollShape.setScale(Vector2f(0.30f, 0.94f));
+    mScrollShape.setPosition(0, 0);
+    std::cout << "width " << mScrollShape.getSize().x << "\n";
+    std::cout << "height " << mScrollShape.getSize().y << "\n";
     mScrollShape.setTexture(&TextureHolder::getTexture("assets/graphics/scroll.png"));
 }
 
